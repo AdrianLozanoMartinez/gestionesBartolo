@@ -1,0 +1,42 @@
+#formulario{
+    display:flex;
+    justify-content:center; /*Horizontal*/
+    align-items: center;    /*Vertical*/
+    height: 100vh;          /*100% de la altura visible de la ventana del navegador*/
+}
+
+#estrechar{
+    width:50px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.enlace{
+    text-decoration: none;
+    color: black;
+}
+
+.enlace:active{
+    color: black;
+}
+
+nav{
+    background: lightblue; 
+    display:flex; 
+    justify-content:center; 
+    align-items: center;
+}
+
+#logout{
+    text-decoration: none; 
+    margin-left: 10px;
+}
+
+#loading
+{
+	text-align:center; 
+	background: url('recursos/loader.gif') no-repeat center; 
+	height: 150px;
+}
